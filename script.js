@@ -122,3 +122,21 @@ switch (expr) {
     console.log(`Sorry, we are out of ${expr}.`);
 }
 
+// zadanie IF
+let x = 50
+let y = 30
+if (x>y){
+    console.log(`${x} jest wieksze od ${y}`)
+}else{
+    console.log(`${x} nie jest wieksze od ${y}`)
+}
+
+// zadanie 2 IF Else
+const color1 = 'blue'
+const newColor = 'green'
+
+if (color1==newColor){
+    console.log(`Kolory sie zgadzaja`)
+}else{
+    console.log(`Kolory sie nie zgadzaja`)
+}
