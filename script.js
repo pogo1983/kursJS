@@ -187,3 +187,4 @@ for (const number of numbers){
     console.log(number * 2 )
 }
 
+//zadanie 6
