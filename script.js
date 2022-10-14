@@ -193,3 +193,6 @@ while ( xx <= 10 ){
     xx = xx + 2;
     console.log(xx)
 } 
+
+
+//
