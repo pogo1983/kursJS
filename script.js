@@ -67,7 +67,45 @@ console.log(text7.split(','))
 
 //instrukcje warunkowe
 const pass = 'qwerty'
-if (pass.length)
+if (pass.length>10)
 {
-    
+console.log('TRUE')
 }
+else
+{
+    console.log('FALSE')
+}
+
+
+//if w ifie
+const color = 'blue1'
+
+if (color == 'blue'){
+    if (10 > 0){
+        console.log('true true')
+    }
+    else {
+        console.log('stop')
+    }
+}else{
+    console.log('false')
+}
+
+//else if 
+
+const pass2 = 'qwerty'
+if (pass2.length>10)
+{
+console.log('TRUE')
+}
+else if (pass2.charAt(0)=='q' && pass2.includes('!'))
+{
+    console.log('JEst ideolo')
+}
+else {
+    console.log ('Nie pasi')
+}
+
+
+//SWITCH
+    
