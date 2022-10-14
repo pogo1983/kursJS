@@ -155,10 +155,35 @@ else{
 }
 
 //zadanie operator warunkowy %
-let c = 13
+let c = 22
 
 if (c % 2 == 0 ){
     console.log(`Wartosc ${c} jest parzysta`)
 } else if (c % 2 != 0){
     console.log (`Wartosc ${c} jest nie parzysta`)
 }
+//to samo ale w operatorem warunkowym
+(c % 2 == 0) ? console.log(`Wartosc ${c} jest parzysta`) : console.log(`Wartosc ${c} jest nie parzysta`)
+
+
+//zadanie 5
+
+
+//PETLE
+
+// for (let i = 0 ; i < 6 ; i++){
+//     console.log(i)
+// }
+
+const animals = ['kon','kot','pies','slon','zaba']
+
+for (let i = 0 ; i < animals.length ; i++){
+    console.log(animals[i])
+}
+
+//for of
+const numbers = ['1','2','3','4','5']
+for (const number of numbers){
+    console.log(number * 2 )
+}
+
