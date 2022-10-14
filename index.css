@@ -1,0 +1,23 @@
+p {
+color:blue;
+font-family: 'Times New Roman', Times, serif;
+width: 105px;
+border: 10px solid blueviolet;
+}
+
+h1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align-last: center;
+}
+
+html {
+    background-color: #99FFFF ;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #6699CC;
+    padding: 0 100px 40px 40px;
+    border: 5px solid #33CCFF;
+  }
