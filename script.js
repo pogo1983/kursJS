@@ -178,7 +178,7 @@ if (c % 2 == 0 ){
 const animals = ['kon','kot','pies','slon','zaba']
 
 for (let i = 0 ; i < animals.length ; i++){
-    console.log(animals[i])
+    console.log(`To jest zwierze: ${animals[i]}`)
 }
 
 //for of
