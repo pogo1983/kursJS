@@ -153,3 +153,12 @@ else if (a==b){
 else{
     console.log(`${a} nie jest wieksze od ${b}`)
 }
+
+//zadanie operator warunkowy %
+let c = 13
+
+if (c % 2 == 0 ){
+    console.log(`Wartosc ${c} jest parzysta`)
+} else if (c % 2 != 0){
+    console.log (`Wartosc ${c} jest nie parzysta`)
+}
