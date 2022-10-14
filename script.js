@@ -188,3 +188,8 @@ for (const number of numbers){
 }
 
 //zadanie 6
+let xx = 0
+while ( xx <= 10 ){
+    xx = xx + 2;
+    console.log(xx)
+} 
