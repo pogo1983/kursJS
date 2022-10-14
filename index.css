@@ -1,23 +1,42 @@
-p {
-color:blue;
-font-family: 'Times New Roman', Times, serif;
-width: 105px;
-border: 10px solid blueviolet;
-}
-
-h1 {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align-last: center;
-}
-
 html {
-    background-color: #99FFFF ;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
-
 body {
-    width: 600px;
+    padding: 0;
+    display: block;
+    width: 900px;
+    overflow: auto;
     margin: 0 auto;
-    background-color: #6699CC;
-    padding: 0 100px 40px 40px;
-    border: 5px solid #33CCFF;
-  }
+}
+#header {
+    float: left;
+    width: 100%;
+    background-color: #888;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#nav {
+    display: flex;
+    width: 250px;
+    height: calc(100%);
+    float: left;
+    overflow: auto;
+    background-color: #ccc;
+}
+#content {
+    width: 554px;
+    float: left;
+    overflow: hidden;
+    background-color: #fff;
+}
+#footer {
+    clear: both;
+    width: 100%;
+    background-color: #888;
+}
+h1{
+    text-align: center;
+}
