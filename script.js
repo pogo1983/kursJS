@@ -140,3 +140,16 @@ if (color1==newColor){
 }else{
     console.log(`Kolory sie nie zgadzaja`)
 }
+
+// zadanie IF else if 3 
+let a = 50
+let b = 50
+if (a > b){
+    console.log(`${a} jest wieksze od ${b}`)
+}
+else if (a==b){
+    console.log(`${a} jest rowny ${b}`)
+}
+else{
+    console.log(`${a} nie jest wieksze od ${b}`)
+}
