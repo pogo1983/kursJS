@@ -64,3 +64,10 @@ console.log(text7.split(','))
 //NUMBERs
 //oprators
 //boolean
+
+//instrukcje warunkowe
+const pass = 'qwerty'
+if (pass.length)
+{
+    
+}
