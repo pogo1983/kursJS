@@ -297,9 +297,10 @@ function multiply(x) {
     return x
 }
 const multiplyNumbers = numbers4.map(multiply)
-console.log(multiplyNumbers)
-
-for (wyn of multiplyNumbers) {
+//const multiplyNumbers = numbers4.map(number => number * 5)
+console.log('Zadanie 3 arrays: ' + multiplyNumbers)
+//for of
+for (const wyn of multiplyNumbers) {
     if (wyn % 2 == 0) {
         console.log(`Liczba ${wyn} jest parzysta`)
     }
@@ -307,3 +308,14 @@ for (wyn of multiplyNumbers) {
         console.log(`Liczba ${wyn} jest nie parzysta`)
     }
 }
+// or with a standar for:
+for (let i = 0; i < multiplyNumbers.length; i++) {
+    if (multiplyNumbers[i] % 2 == 0) {
+        console.log(`Liczba ${multiplyNumbers[i]} jest parzysta`)
+    }
+    else if (multiplyNumbers[i] % 2 == 1) {
+        console.log(`Liczba ${multiplyNumbers[i]} jest nie parzysta`)
+    }
+}
+
+//
