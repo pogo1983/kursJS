@@ -318,4 +318,16 @@ for (let i = 0; i < multiplyNumbers.length; i++) {
     }
 }
 
-//
+//zadanie 4 na tablicach
+const color2 = ['red']
+color2.push('blue')
+color2.unshift('black')
+//for of case
+for (const favColor of color2) {
+    //console.log('Zad 4, My favourite color is ' + favColor.toUpperCase())
+    console.log('Zad 4 for of, My favourite color is ' + favColor.charAt(0).toUpperCase() + favColor.slice(1))
+}
+//standard for case
+for (let i = 0; i < color2.length; i++) {
+    console.log('Zad 4 for standard, My favourite color is ' + color2[i].charAt(0).toUpperCase() + color2[i].slice(1))
+}
