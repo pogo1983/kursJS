@@ -240,3 +240,24 @@ const abc = ['a','b','c']
 const newAbc = table.concat(abc)
 console.log('concat: '+ newAbc)
 
+//spread or rest operator ...
+console.log(...abc)
+const menu = [...abc,...table]
+console.log('spread:' + menu)
+
+//Zadanie splice/slice
+const numbers1 = [0,0,1,1,2,2,2]
+const colors1 = ['red','green','blue','true',123]
+const cars = [123,true,'audi','bmw','mercedes','','']
+//slice
+const numbersNew = numbers1.slice(0,2)
+console.log('slice dwa zera wyciete '+ numbersNew)
+const numbersNew2 = numbers1.slice(-2)
+console.log('slice dwie ostatnie dwojki wyciete '+ numbersNew2)
+//splice
+const randomStuff = colors1.splice(3,2)
+console.log('splice dwie ostatnie z colors '+ randomStuff)
+const newCars = cars.splice(2,3,'test')
+console.log('splice cars '+ cars)
+console.log('splice newCars '+ newCars)
+//
