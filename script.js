@@ -216,7 +216,7 @@ for (const zad of zadanie){
 
 //tablice
 //metody
-const table = [1,2,3,4,5,6]
+const table = [1,2,3,4,5]
 console.log('tablice metody section:'+table)
 table.unshift(-1,0)
 console.log('tablice metody unshift:'+table)
@@ -226,3 +226,17 @@ table.push (7)
 console.log('tablice metody push:'+table)
 table.pop ()
 console.log('tablice metody push:'+table)
+
+//funckje metody tablice
+function multiply (z) {
+    return z * 2
+}
+//console.log(multiply(5))
+//metoda MAP
+const newNumbers = table.map(multiply)
+console.log (newNumbers)
+//concat
+const abc = ['a','b','c']
+const newAbc = table.concat(abc)
+console.log('concat: '+ newAbc)
+
