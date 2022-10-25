@@ -195,4 +195,5 @@ while ( xx <= 10 ){
 } 
 
 
-//
+//zadanie do while
+
