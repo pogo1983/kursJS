@@ -340,14 +340,23 @@ if (carsTable.length > 3) {
 } else {
     console.log('Not OK')
 }
+console.log(carsTable)
 
 const audi = 'Audi'
-for (const car of carsTable) {
-    if (car == audi) {
-        carsTable.push(audi)
-    }
-    else if (car != audi) {
-        carsTable.pop(audi)
-    }
+// for (const car3 of carsTable) {
+//     if (car3 == audi) {
+//         carsTable.push('Lamborghini')
+//         console.log(carsTable)
+//     }
+//     else if (car3 != audi) {
+//         carsTable.pop()
+//         console.log(carsTable)
+//     }
+// }
+if (carsTable.includes(audi)){
+    carsTable.push('Lambo')
+}
+else {
+    carsTable.pop()
 }
 console.log(`Zdanie 5 na tablicach: ${carsTable}`)
