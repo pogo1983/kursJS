@@ -203,3 +203,16 @@ console.log ('yy loop:' + yy )
 } while (yy > 0)
 console.log ('yy: '+ yy)
 
+//zadanie for of
+const zadanie = [5,8,10,23,48,60]
+for (const zad of zadanie){
+    if (zad % 2 == 0){
+        console.log (`%cLiczba ${zad} jest parzysta`, 'background-color:gold; color:red')
+    } 
+    else if (zad % 2 == 1){
+        console.log (`Liczba ${zad} jest nieparzysta`)
+    } 
+//console.log("zadanie tablica for of: "+ zad)
+}
+
+//tablice
