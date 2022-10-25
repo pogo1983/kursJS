@@ -196,4 +196,10 @@ while ( xx <= 10 ){
 
 
 //zadanie do while
+let yy = 20
+do {
+yy -= 3
+console.log ('yy loop:' + yy )
+} while (yy > 0)
+console.log ('yy: '+ yy)
 
