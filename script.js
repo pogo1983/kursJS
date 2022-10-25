@@ -281,3 +281,11 @@ letters.push('e', 'f')
 letters.unshift('a', 'b')
 
 console.log('zadanie1 z tablicami ' + letters +' '+ letters.includes('c'))
+
+//zadanie 2 z tablicami
+const numbers3 = [1,2,3,4,5]
+const food = ['apple','plum','banana','pineapple']
+//also can be done with concat
+const twistedTable2=numbers3.concat(food)
+const twistedTable = [...food,...numbers]
+console.log(twistedTable, twistedTable2)
