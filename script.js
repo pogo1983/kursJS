@@ -199,7 +199,7 @@ while ( xx <= 10 ){
 let yy = 20
 do {
 yy -= 3
-console.log ('yy loop:' + yy )
+//console.log ('yy loop:' + yy )
 } while (yy > 0)
 console.log ('yy: '+ yy)
 
@@ -212,7 +212,17 @@ for (const zad of zadanie){
     else if (zad % 2 == 1){
         console.log (`Liczba ${zad} jest nieparzysta`)
     } 
-//console.log("zadanie tablica for of: "+ zad)
 }
 
 //tablice
+//metody
+const table = [1,2,3,4,5,6]
+console.log('tablice metody section:'+table)
+table.unshift(-1,0)
+console.log('tablice metody unshift:'+table)
+table.shift()
+console.log('tablice metody shift:'+table)
+table.push (7)
+console.log('tablice metody push:'+table)
+table.pop ()
+console.log('tablice metody push:'+table)
