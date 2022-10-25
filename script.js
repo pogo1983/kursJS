@@ -331,3 +331,23 @@ for (const favColor of color2) {
 for (let i = 0; i < color2.length; i++) {
     console.log('Zad 4 for standard, My favourite color is ' + color2[i].charAt(0).toUpperCase() + color2[i].slice(1))
 }
+
+//zadanie 5 na tablicach
+const cars2 = 'Audi,Mercedes,BMW,Nissan,Dodge'
+const carsTable = cars2.split(',')
+if (carsTable.length > 3) {
+    console.log('Jest OK')
+} else {
+    console.log('Not OK')
+}
+
+const audi = 'Audi'
+for (const car of carsTable) {
+    if (car == audi) {
+        carsTable.push(audi)
+    }
+    else if (car != audi) {
+        carsTable.pop(audi)
+    }
+}
+console.log(`Zdanie 5 na tablicach: ${carsTable}`)
