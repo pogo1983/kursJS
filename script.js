@@ -280,12 +280,30 @@ const letters = ['c', 'd']
 letters.push('e', 'f')
 letters.unshift('a', 'b')
 
-console.log('zadanie1 z tablicami ' + letters +' '+ letters.includes('c'))
+console.log('zadanie1 z tablicami ' + letters + ' ' + letters.includes('c'))
 
 //zadanie 2 z tablicami
-const numbers3 = [1,2,3,4,5]
-const food = ['apple','plum','banana','pineapple']
+const numbers3 = [1, 2, 3, 4, 5]
+const food = ['apple', 'plum', 'banana', 'pineapple']
 //also can be done with concat
-const twistedTable2=numbers3.concat(food)
-const twistedTable = [...food,...numbers]
+const twistedTable2 = numbers3.concat(food)
+const twistedTable = [...food, ...numbers]
 console.log(twistedTable, twistedTable2)
+
+//zadanie 3 z tablicami
+const numbers4 = [1, 5, 13, 26, 48]
+function multiply(x) {
+    x = x * 5
+    return x
+}
+const multiplyNumbers = numbers4.map(multiply)
+console.log(multiplyNumbers)
+
+for (wyn of multiplyNumbers) {
+    if (wyn % 2 == 0) {
+        console.log(`Liczba ${wyn} jest parzysta`)
+    }
+    else if (wyn % 2 == 1) {
+        console.log(`Liczba ${wyn} jest nie parzysta`)
+    }
+}
