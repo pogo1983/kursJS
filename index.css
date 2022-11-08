@@ -40,3 +40,62 @@ body {
 h1{
     text-align: center;
 }
+/* 
+#nav-body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #336699;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    vertical-align: top;
+    overflow: hidden;
+  }
+  #menu {
+    margin: 0;
+    padding: 0;
+    width: 12em;
+    background-color: #336699;
+    list-style-image: none;
+    list-style-type: none;
+    overflow: auto;
+    position: relative;
+    display: inline-block;
+    clear: both;
+    float: left;
+  }
+  #menu li {
+    font: 67.5%"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  #menu a {
+    background: #336699;
+    border-bottom: 1px solid #336699;
+    color: #ccc;
+    display: block;
+    margin: 0;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: normal;
+  }
+  #menu a:hover {
+    background: #2580a2 url("images/hover.gif") left center no-repeat;
+    color: #fff;
+    padding-bottom: 8px;
+  }
+  #content {
+    font-size: medium;
+    color: #336699;
+    background-color: #FFF;
+    display: inline-block;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+    height: auto;
+    vertical-align: 5%;
+    overflow: auto;
+    clear: both;
+    float: left;
+  } */
