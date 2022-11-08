@@ -13,3 +13,10 @@
     }
 })();
 
+//Shift + Alt + F = format code
+//Functions section from course
+function test() {
+    console.log(`Hi Guys`)
+}
+test()
+//funkcja podlega hoistingowi - wszystko czytane jest od góry
