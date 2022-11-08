@@ -360,3 +360,6 @@ else {
     carsTable.pop()
 }
 console.log(`Zdanie 5 na tablicach: ${carsTable}`)
+
+
+//
